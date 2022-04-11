@@ -1,4 +1,4 @@
-# Contract Starter - A simple scaffolding for Solidity contracts
+# Contract Starter - A simple scaffolding for build and deploy Solidity contracts
 
 This project demonstrates a basic Hardhat use case. 
 
