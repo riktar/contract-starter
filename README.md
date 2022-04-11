@@ -10,6 +10,7 @@ Clone, open in the terminal and run:
 
 ```bash 
 npm i
+cp .env.example .env
 ```
 
 ## Run tests
