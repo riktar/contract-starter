@@ -1,15 +1,31 @@
-# Basic Sample Hardhat Project
+# Contract Starter - A simple scaffolding for Solidity contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project demonstrates a basic Hardhat use case. 
 
-Try running some of the following tasks:
+It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
+## Getting Started
+
+Clone, open in the terminal and run:
+
+```bash 
+npm i
+```
+
+## Run tests
+
+```bash
 npx hardhat test
+```
+
+## Deploy contract on localhost
+
+In a terminal, run:
+```bash
 npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+```
+
+In another terminal run:
+```bash
+npx hardhat run scripts/deploy.js --network localhost
 ```
